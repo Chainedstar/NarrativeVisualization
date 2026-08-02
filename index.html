@@ -6,10 +6,12 @@
         chart of the game industry by genre sales from 1980-2016
     </p>
     <svg id="chart" width="900" height="500"></svg>
-    <button id="scene1">1</button>
-    <button id="scene2">2</button>
-    <button id="scene3">3</button>
-    <select id="yearSelect"></select>
+    <div>
+        <button id="scene1">1</button>
+        <button id="scene2">2</button>
+        <button id="scene3">3</button>
+        <select id="yearSelect"></select>
+    </div>
     <script>
         //code setup found via https://stackoverflow.com/questions/49599691/how-to-load-data-from-a-csv-file-in-d3-v5
         d3.csv('year_genre_region.csv')
